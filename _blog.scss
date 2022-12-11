@@ -1,0 +1,134 @@
+.blog{
+    width: 1920px;
+    height: 808px;
+    .blog-text{
+       width: 1410px; 
+       height: 740px;
+       margin: 0 auto;
+       .blog-up{
+        width: 1136px;
+        height: 141px;
+        margin: 0 auto 50px auto;
+            .up{
+               font-size: 45px; 
+               color: #212529;
+               margin: 0 auto 20px auto;
+               span{
+                   color: #00730C;
+                }
+            }
+            p{
+                font-size: 18px;
+                text-align: center;
+                color: #676767;
+                margin: 0;
+            } 
+        }   
+            
+       .blog-card{
+           width: 100%;
+           height: 549px;
+           display: flex;
+           justify-content: space-between;
+           .blog-1,
+           .blog-2{
+              width: 450px;
+              height: 549px;
+            }
+            .blog-1{
+                background-image: url("images/full.png");
+                opacity: 0.8;
+                border-radius: 10px;
+                background-position: center,bottom;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+                .blog-garden{
+                    width: 139px;
+                    height: 35px;
+                    border: 1px solid #D9F1E0;
+                    background-color: #D9F1E0;
+                    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+                    font-size: 18px;
+                    color: #00730C;
+                    text-align: center;
+                    margin-top: 100px;
+                    margin-left: 30px;
+                    padding-top: 5px;
+                }
+                .blog-3{
+                    font-size: 24px;
+                    color: #ffffff;
+                    margin: 75px 58px 30px 30px;
+                }
+                p{
+                    font-size: 18px;
+                    color: #ffffff;
+                    margin: 0 32px 0 30px;
+                }
+                .blog-down{
+                    width: 450px;
+                    height: 55px;
+                    background-image: url("images/Profiledates.png");
+                    border-top: 1px solid white;
+                    margin-top: 70px;
+                }
+            }
+            .blog-2{
+                background-color: #ffffff;
+                border-radius: 10px;
+                background-image: url("images/ma.png");
+                background-repeat: no-repeat;
+                background-position: 100% 0;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+                .blog-garden-1{
+                    width: 123px;
+                    height: 35px;
+                    border: 1px solid #D9F1E0;
+                    background-color: #D9F1E0;
+                    color: #00730C;
+                    font-size: 18px;
+                    text-align: center;
+                    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.15);
+                    padding-top: 5px;
+                    margin: 100px 0 30px 30px;
+                }
+                .blog-4{
+                    width: 362px;
+                    height: 66px;
+                    font-size: 24px;
+                    color: #00730C;
+                    margin: 0 58px 30px 30px;
+                }
+                p{
+                    width: 388px;
+                    height: 160px;
+                    font-size: 18px;
+                    color: #676767;
+                    margin: 0 32px 25px 35px;
+                }
+                .blog-down-1{
+                    width: 450px;
+                    height: 55px;
+                    background-image: url("images/ProfileDate.png");
+                    border-top: 1px solid white;
+                }
+            }
+        }  
+    }
+    .slider{
+        width: 290px;
+        height: 8px;   
+        margin: 60px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        & > .mini-slider{
+            width: 50px;
+            height: 8px;
+            border: 1px solid #00730C;
+            background-color:  #FBEEE7;
+            cursor: pointer;
+            &:hover{
+                background-color: #00730C;
+            }
+        }  
+    }
+}

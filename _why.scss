@@ -1,0 +1,76 @@
+.why{
+    width: 1920px;
+    height: 655px;
+    background-image: url("images/green.png");
+    padding: 102px 255px;
+    margin-bottom: 100px;
+    .content{
+       width: 1410px; 
+       height: 455px;
+       display: flex;
+       justify-content: space-between;
+       .text-6{
+        width: 656px;
+        height: 455px;
+        .text-6-1{
+            width: 337px;
+            height: 61px;
+            margin-bottom: 30px;
+            font-size: 45px;
+            color: #FFFFFF;
+        }
+        .text-6-2{
+            font-size: 18px;
+            color: #FFFFFF;
+            margin-bottom: 50px;
+        }
+        .choose{
+            width: 600px;
+            height: 86px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            color: #FFFFFF;
+            font-size: 24px;
+            margin-bottom: 50px;
+            .choose-1{
+                width: 517px;
+                height: 33px;
+            }
+            .choose-2{
+                width: 547px;
+                height: 33px;
+            }
+            .choose-1,
+            .choose-2{
+                display: flex;
+                justify-content: space-between;  
+                .proper,
+                .expert,
+                .clean,
+                .home{
+                    background-image: url("images/tick.png");
+                    background-repeat: no-repeat;
+                    padding-left: 50px;
+                    background-position: 0;  
+                }   
+            }
+        }
+        .btn-discover{
+            width: 190px;
+            height: 50px;
+            border: 1px solid #00730C;
+            border-radius: 5px;
+            font-size: 18px;
+            color: #ffffff;
+            background-color: #00730C;
+            cursor: pointer;
+        }
+       }
+       .img-why{
+        width: 672px;
+        height: 426px;
+        align-self: center;
+       }   
+    }
+}

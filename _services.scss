@@ -1,0 +1,157 @@
+.service{
+    width: 1920px;
+    height: 963px;
+    margin: 0 auto 100px 0;
+    padding: 0;
+    .text-3{
+        width: 1136px;
+        height: 151px;
+        margin: 0 392px;
+        .title{
+            font-size: 45px;
+            color: #212529;
+            text-align: center;
+            span{
+                color: #00730C;
+            }
+        }
+        p{
+            margin: 30px 0 0 0;
+            font-size: 18px;
+            color: #676767;
+            text-align: center;
+        }
+    }
+    .cards{
+        width: 1410px;
+        height: 762px;
+        margin: 50px 255px 100px 255px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       
+        .cards-1,
+        .cards-2{
+            display: flex;
+            justify-content: space-between;
+            .card-1,
+            .card-1-1{
+                width: 330px;
+                height: 366px;
+                border: 1px solid #ffffff;
+                background: linear-gradient(172.29deg, #FFFFFF -10.79%, #FFFFFF 94.04%);
+                box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+                border-radius: 10px;
+                background-image: url("images/sheets.png");
+                background-repeat: no-repeat;
+                background-position: top, 50%;
+                .mini-title{
+                    font-size: 24px;
+                    color: #212529;
+                    text-align: center;
+                    margin: 0 0 10px 0;
+                }
+
+                img{
+                    margin: 60px 130px 50px 130px;
+                }
+                p{
+                    font-size: 16px;
+                    margin: 0 43px 0 43px;
+                    color: #676767;
+                    text-align: center;
+                }
+
+            }
+            .card-1-1{
+                background-color:#00730C;
+                .mini-title{ 
+                    color: #ffffff; 
+                }
+                p{
+                    color: #ffffff;
+                }
+            }
+        }
+
+    }
+}
+@media(min-width:375px), (max-width:425px){
+    .service{
+        width: 375px;
+        height: 1261px;
+        margin: 0 auto 50px auto;
+        padding: 0;
+        .text-3{
+            width: 344px;
+            height: 163px;
+            margin: 0 15px 30px 15px;
+            .title{
+                font-size: 28px;
+                color: #212529;
+                text-align: center;
+                span{
+                    color: #00730C;
+                }
+            }
+            p{
+                margin: 15px 0 0 0;
+                font-size: 14px;
+                color: #676767;
+                text-align: center;
+            }
+        }
+        .cards{
+            width: 345px;
+            height: 1068px;
+            margin: 0 15px;
+            display: block;
+            .cards-1,
+            .cards-2{
+                display: block;
+                .card-1,
+                .card-1-1{
+                    width: 345px;
+                    height: 116px;
+                    border: 1px solid #ffffff;
+                    background: linear-gradient(172.29deg, #FFFFFF -10.79%, #FFFFFF 94.04%);
+                    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+                    border-radius: 10px;
+                    background-image: url("images/sheets.png");
+                    background-repeat: no-repeat;
+                    // display: inline;
+                    .mini-title{
+                        font-size: 16px;
+                        color: #212529;
+                        text-align: center;
+                        margin: 20px 155px 10px 90px;
+                    }
+    
+                    img{
+                        width: 50px;
+                        height: 50px;
+                        margin: 33px 20px;
+                    }
+                    p{
+                        font-size: 16px;
+                        margin: 0 43px 0 43px;
+                        color: #676767;
+                        text-align: center;
+                    }
+    
+                }
+                .card-1-1{
+                    background-color:#ffffff;
+                    .mini-title{ 
+                        color: #00730C; 
+                    }
+                    p{
+                        color: #00730C;
+                    }
+                }
+            }
+    
+        }
+    }
+}

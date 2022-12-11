@@ -1,0 +1,23 @@
+.cta{
+    width: 1410px;
+    height: 247px;
+    margin: 0 auto;
+    position: relative;
+    .btn-call{
+        position: absolute;
+        width: 170px;
+        height: 50px;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+        box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+        color: #00730c;
+        background-image: url("images/phonegreen.png");                                                                                                                                                                     
+        background-repeat: no-repeat;
+        background-position: 20%;
+        cursor: pointer;
+        transform: translate(-135%);
+        margin: 98px 60px 0 0;
+    }
+    
+}

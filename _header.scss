@@ -1,0 +1,410 @@
+.header{
+    width: 1920px;
+    height: 863px;
+    margin: 0 auto 100px 0;
+    padding: 0;
+    .top-navbar{
+        font-family: 'Poppins', sans-serif;
+        width: 1920px;
+        height: 59px;
+        padding: 17px 251px;
+        background-color: #0C4B35;
+        .text{
+            width: 1418px;
+            height: 25px;
+            display: flex;
+            justify-content: space-between;
+            color:  #FFFFFF;
+            font-size: 14px;
+            .text-left{
+                width: 739px;
+                height: 25px;
+                display: flex;
+                justify-content: space-between;
+                .left-1,
+                .left-2,
+                .left-3{
+                    background-repeat: no-repeat;
+                    padding-left: 35px;
+                }
+                .left-1{
+                    background-image: url("images/email.png");
+                }
+                .left-2{
+                    background-image: url("images/phone-call.png");
+                }
+                .left-3{
+                    background-image: url("images/location.png");
+                }
+                
+            }
+            .text-right{
+                width: 66px;
+                height: 25px;
+                cursor: pointer;
+                .right{
+                    background-image: url("images/downArrow.png");
+                    background-repeat: no-repeat;
+                    background-position: right;
+                }
+            }
+        }
+        
+        
+    }
+    .navbar{
+        width: 1920px;
+        height: 85px;
+        .navbar-1{
+            width: 1408px;
+            height: 55px;
+            margin: 15px 256px;
+            display: flex;
+            justify-content: space-between;
+            a img{
+                width: 120px;
+                height: 55px;
+            }
+            .text-1-1{
+                width: 898px;
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+                
+                .text-1-2{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 627px;
+                    .home,
+                    .company,
+                    .services,
+                    .project,
+                    .blog {
+                        background-image: url("images/arrowblack.png");
+                        background-repeat: no-repeat;
+                        font-size: 16px;
+                        color: #212529;
+                        background-position: 95%;
+                        height: 20px;
+                        cursor: pointer;
+                            
+                    }
+                    .home{
+                        width: 62px;     
+                    }
+                    .company{
+                        width: 87px;
+
+                    }
+                    .services{
+                        width: 79px;
+                    }
+                    .project{
+                        width: 70px;
+                    }
+                    .blog{
+                       width: 51px; 
+                    }
+                    .contact{
+                        width: 58px;
+                        height: 20px;
+                    }
+                }
+                .btn-call{
+                    
+                    button{
+                        width: 170px;
+                        height: 50px;
+                        border: 1px solid #00730C;
+                        background-color: #00730C;
+                        border-radius: 5px;
+                        color: #FFFFFF;
+                        background-image: url("images/phone.png");
+                        background-repeat: no-repeat;
+                        background-position: 20%;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .header-frame{
+        width: 1920px;
+        height: 719px;
+        display: flex;
+        justify-content: space-between;
+        background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
+        .img{
+            margin: 381px 0 60px 0;
+            img{
+                width: 197px;
+                height: 278px;       
+            }
+        }
+        .frame-text{
+           width: 556px;
+           height: 486px;
+           margin: 133px 0 100px -40px; 
+           .frame-1{
+             height: 278px;
+             margin-bottom: 50px;
+                .land{
+                     background-image: url("images/Vector.png");
+                     background-repeat: no-repeat;
+                     color: #212529;
+                     font-size: 16px;
+                     padding-left: 29px;
+                     margin-bottom: 20px;
+                     margin-top: 0;
+                }
+                h4{
+                  width: 696px;
+                  height: 158px;
+                  color: #212529; 
+                  font-size: 58px;
+                  margin-top: 0;
+                  margin-bottom: 20px;
+                  span{
+                    color: #00730C;
+                  }
+
+                }
+                .lorem{
+                    font-size: 18px;
+                    color: #676767;
+                    margin: 0;
+                   
+                }
+            }
+            .btn-header{
+                width: 400px;
+                margin-bottom: 58px;
+                display: flex;
+                justify-content: space-between;
+                .btn-get{
+                    border: 1px solid #00730C;
+                    border-radius: 5px;
+                    width: 175px;
+                    height: 50px;
+                    background-color: #00730C;
+                    color:  #FFFFFF;
+                    padding: 13px 35px;
+                    cursor: pointer;
+                    font-size: 18px;
+                }
+                .btn-see{
+                    width: 190px;
+                    height: 37px;
+                    text-align: left;
+                    margin-top: 5px;
+                    padding-top: 5px;
+                    background-image: url("images/Arrowright.png");
+                    background-repeat: no-repeat;
+                    background-position: 90%;
+                    color: #676767;
+                    font-size: 18px;
+                    
+                }
+                
+            }
+            .tag{
+                width: 467px;
+                height: 50px;
+                display: flex;
+                .tag-1{
+                    width: 149px;
+                    height: 50px;
+                    display: flex;
+                    .number{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 35px;
+                        background: linear-gradient(72.71deg, #00730C -83.5%, #F9F9F9 93.84%);
+                        padding: 15px 7px;
+                        color: #212529;
+                        margin-right: 10px;
+                    }
+                    .text-2{
+                        font-size: 16px;
+                    }
+                }
+                
+            }
+           
+        }
+        .img-header{
+            width: 1013px;
+            height: 673px;
+            margin-top: 46px;
+            
+        }
+        
+    }
+    
+}
+@media(min-width:375px), (max-width:425px){
+    .header{
+        width: 425px;
+        height: 812px;
+        margin: 0 auto 50px auto;
+        .top-navbar{
+            width: 100%;
+            height: 55px;
+            padding: 20px 20px 15px 20px;
+            .text{
+                width: 335px;
+                height: 20px;
+                .text-left{
+                    width: 100px;
+                    font-size: 0;
+                    .left-1,
+                    .left-2,
+                    .left-3{
+                        background-size: 20px;
+                    }
+                }
+                .text-right{
+                    width: 55px;
+                    height: 16px;
+                    font-size: 12px;
+                    
+                }
+            }
+            
+        }
+        .navbar{
+            width: 425px;
+            height: 70px;
+            .navbar-1{
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: space-between;
+                margin: 15px auto;
+                padding: 0 15px;
+                a img{
+                    width: 90px;
+                    height: 40px;
+                }
+                .text-1-1{
+                    width: 110px;
+                    height: 34px;
+                    background-image: url("images/menu.png");
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    cursor: pointer;
+                    .text-1-2{
+                        display: none;
+                        
+                    }
+                    .btn-call{
+                       
+                        button{
+                            width: 40px;
+                            height: 34px;
+                            border: 1px solid #00730C;
+                            background-color: #00730C;
+                            border-radius: 10px;
+                            color: #FFFFFF;
+                            background-image: url("images/phone.png");
+                            background-repeat: no-repeat;
+                            cursor: pointer;
+                            font-size: 0;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .header-frame{
+            width: 425px;
+            height: 700px;
+            background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
+            margin: 0;
+            padding: 0;
+            .img{
+                display: none;
+            }
+            .frame-text{
+               width: 427px;
+               height: 466px;
+               margin: 47px 15px 35px 14px;
+               .frame-1{
+                 height: 187px;
+                 margin: 0;
+                    .land{
+                         background-image: url("images/Vector.png");
+                         background-repeat: no-repeat;
+                         color: #212529;
+                         font-size: 14px;
+                         padding-left: 29px;
+                         margin-bottom: 10px;
+                         margin-top: 0;
+                    }
+                    h4{
+                      width: 345px;
+                      height: 76px;
+                      color: #212529; 
+                      font-size: 28px;
+                      margin-top: 0;
+                      margin-bottom: 15px;
+                      span{
+                        color: #00730C;
+                      }
+    
+                    }
+                    .lorem{
+                        width: 345px;
+                        font-size: 14px;
+                        color: #676767;
+                        margin: 0 0 40px 0;
+                       
+                    }
+                }
+                .btn-header{
+                    width: 400px;
+                    margin-bottom: 58px;
+                    flex-direction: column;
+                    align-items: center;
+                    .btn-get{
+                        border: 1px solid #00730C;
+                        border-radius: 5px;
+                        width: 303px;
+                        height: 44px;
+                        background-color: #00730C;
+                        color:  #FFFFFF;
+                        text-align: center;
+                        cursor: pointer;
+                        font-size: 16px;
+                    }
+                    .btn-see{
+                        width: 140px;
+                        height: 21px;
+                        text-align: left;
+                        margin-top: 20px;
+                        margin-bottom: 40px;
+                        background-image: url("images/Arrowright.png");
+                        background-repeat: no-repeat;
+                        background-position: right;
+                        color: #676767;
+                        font-size: 14px;
+                        
+                    }
+                    
+                }
+                .tag{
+                    display: none;
+                    
+                }
+               
+            }
+            .img-header{
+                display: none;
+                
+            }
+            
+        }
+    }
+    
+    
+}

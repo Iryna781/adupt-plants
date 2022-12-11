@@ -1,0 +1,24 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+
+}
+@import "./_header";
+@import "./services";
+@import "./frame";
+@import "./why";
+@import "./process";
+@import "./cta";
+@import "./team";
+@import "./clients";
+@import "./asked";
+@import "./blog";
+@import "./logos";
+@import "./footer";

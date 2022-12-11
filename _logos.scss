@@ -1,0 +1,22 @@
+.logos{
+   width: 1712px;
+   height: 100px;
+   margin: 100px 104px;
+   display: flex;
+   justify-content: space-between;
+   .logos-1{
+    background-image: url("images/morris.png");
+   }
+   .logos-2{
+    background-image: url("images/forest.png");
+    background-repeat: no-repeat;
+   }
+   .logos-3{
+    background-image: url("images/acme.png");
+   }
+   
+}
+[class*="logos-"]{
+    width: 202px;
+    height: 100px;
+} 
