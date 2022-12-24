@@ -235,14 +235,12 @@ body {
   margin-top: 46px;
 }
 
-@media (min-width: 375px), (max-width: 425px) {
+@media (max-width: 375px) {
   .header {
-    width: 425px;
     height: 812px;
     margin: 0 auto 50px auto;
   }
   .header .top-navbar {
-    width: 100%;
     height: 55px;
     padding: 20px 20px 15px 20px;
   }
@@ -265,11 +263,10 @@ body {
     font-size: 12px;
   }
   .header .navbar {
-    width: 425px;
+    width: 375px;
     height: 70px;
   }
   .header .navbar .navbar-1 {
-    width: 100%;
     height: 40px;
     display: flex;
     justify-content: space-between;
@@ -304,7 +301,7 @@ body {
     font-size: 0;
   }
   .header .header-frame {
-    width: 425px;
+    width: 375px;
     height: 700px;
     background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
     margin: 0;
@@ -314,7 +311,7 @@ body {
     display: none;
   }
   .header .header-frame .frame-text {
-    width: 427px;
+    width: 375px;
     height: 466px;
     margin: 47px 15px 35px 14px;
   }
@@ -332,7 +329,7 @@ body {
     margin-top: 0;
   }
   .header .header-frame .frame-text .frame-1 h4 {
-    width: 345px;
+    width: 375px;
     height: 76px;
     color: #212529;
     font-size: 28px;
@@ -349,7 +346,7 @@ body {
     margin: 0 0 40px 0;
   }
   .header .header-frame .frame-text .btn-header {
-    width: 400px;
+    width: 375px;
     margin-bottom: 58px;
     flex-direction: column;
     align-items: center;
@@ -474,15 +471,15 @@ body {
   color: #ffffff;
 }
 
-@media (min-width: 375px), (max-width: 425px) {
+@media (max-width: 375px) {
   .service {
-    width: 375px;
+    width: 320px;
     height: 1261px;
     margin: 0 auto 50px auto;
     padding: 0;
   }
   .service .text-3 {
-    width: 344px;
+    width: 320px;
     height: 163px;
     margin: 0 15px 30px 15px;
   }
@@ -501,7 +498,7 @@ body {
     text-align: center;
   }
   .service .cards {
-    width: 345px;
+    width: 320px;
     height: 1068px;
     margin: 0 15px;
     display: block;
@@ -514,7 +511,7 @@ body {
 .service .cards .cards-1 .card-1-1,
 .service .cards .cards-2 .card-1,
 .service .cards .cards-2 .card-1-1 {
-    width: 345px;
+    width: 320px;
     height: 116px;
     border: 1px solid #ffffff;
     background: linear-gradient(172.29deg, #FFFFFF -10.79%, #FFFFFF 94.04%);
