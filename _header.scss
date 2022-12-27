@@ -211,7 +211,8 @@
                 width: 467px;
                 height: 50px;
                 display: flex;
-                .tag-1{
+                .tag-1,
+                .tag-2{
                     width: 149px;
                     height: 50px;
                     display: flex;
@@ -247,6 +248,7 @@
         height: 812px;
         margin: 0 auto 50px auto;
         .top-navbar{
+            width: 375px;
             height: 55px;
             padding: 20px 20px 15px 20px;
             .text{
@@ -262,10 +264,9 @@
                     }
                 }
                 .text-right{
-                    width: 55px;
+                    width: 52px;
                     height: 16px;
-                    font-size: 12px;
-                    
+                    font-size: 12px;  
                 }
             }
             
@@ -273,7 +274,9 @@
         .navbar{
             width: 375px;
             height: 70px;
+            padding-top: 5px;
             .navbar-1{
+                width: 375px;
                 height: 40px;
                 display: flex;
                 justify-content: space-between;
@@ -312,34 +315,38 @@
                 }
             }
         }
-        
         .header-frame{
             width: 375px;
-            height: 700px;
+            height: 446px;
             background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
-            margin: 0;
+            margin-top: 240px;
             padding: 0;
             .img{
-                display: none;
+                margin: 333px 0 -120px 0;
+                height: 118px;
+                img{
+                    width: 83px;
+                    height: 118px;       
+                }
             }
             .frame-text{
                width: 375px;
-               height: 466px;
-               margin: 47px 15px 35px 14px;
+               height: 418px;
+               margin: 47px 15px 35px -64px;
                .frame-1{
                  height: 187px;
                  margin: 0;
+                 
                     .land{
                          background-image: url("images/Vector.png");
                          background-repeat: no-repeat;
                          color: #212529;
                          font-size: 14px;
-                         padding-left: 29px;
                          margin-bottom: 10px;
                          margin-top: 0;
                     }
                     h4{
-                      width: 375px;
+                      width: 350px;
                       height: 76px;
                       color: #212529; 
                       font-size: 28px;
@@ -360,9 +367,10 @@
                 }
                 .btn-header{
                     width: 375px;
-                    margin-bottom: 58px;
+                    margin-bottom: 20px;
                     flex-direction: column;
                     align-items: center;
+                    margin-left: -20px;
                     .btn-get{
                         border: 1px solid #00730C;
                         border-radius: 5px;
@@ -390,13 +398,49 @@
                     
                 }
                 .tag{
-                    display: none;
+                    width: 278px;
+                    height: 32px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 56px;
+                    
+                    .tag-2{
+                        display: none;
+                    }
+                    .tag-1{
+                        width: 133px;
+                        height: 32px;
+                        background: linear-gradient(180deg, #FFF8F1 0%, #CBE5CE 100%);
+                        border-radius: 32px;
+                        display: flex;
+                        justify-content: space-evenly;
+                        .number{
+                            width: 29px;
+                            height: 16px;
+                            color: #212529;
+                            border-radius: 0;
+                            background: transparent;
+                            padding: 5px;
+                            background-color:transparent;
+                            font-size: 12px;
+                        }
+                        .text-2{
+                            font-size: 10px;
+                            align-items: center;
+                            padding-top: 7px;
+                        }
+                    }
                     
                 }
                
             }
             .img-header{
-                display: none;
+                margin-left: -390px;
+                margin-top: -240px;
+            }
+            .img-header a img{
+                width: 375px;
+                height: 240px;
                 
             }
             
