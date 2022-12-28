@@ -110,3 +110,79 @@
         }
     }
 }
+@media(max-width:375px){
+    .frame{
+        width: 375px;
+        height: 1231px;
+        margin: 0 auto 50px 0;
+        padding: 0 15px;
+        .about{
+            width: 375px;
+            display: block;
+            .img-about{
+                width: 345px;
+                height: 462px;
+                margin-bottom: 30px;
+               
+                .frame-1{
+                    width: 188px;
+                    height: 293px;
+                } 
+                .middle{
+                    margin: 12px 0 0 12px;
+                    img{
+                        width: 291px;
+                        height: 358px; 
+                    }
+                    
+                }
+                .close{
+                    margin: 300px 0 0 103px;
+                    img{
+                        width: 241px;
+                        height: 162px;
+                    }
+                }  
+            }
+            .content-about{
+                width: 345px;
+                height: 739px;
+                margin: 0 15px;
+                .text-4{
+                    width: 345px;
+                    height: 76px;
+                    margin:0 0 15px 0;
+                    font-size: 28px;
+                }
+                .text-5{
+                    width: 345px;
+                    height: 330px;
+                    font-size: 14px;
+                    margin: 0;
+                }
+                .cards-3{
+                    width: 344px;
+                    height: 208px;
+                    .card-3-1,
+                    .card-3-2{
+                        .mission,
+                        .vision,
+                        .team,
+                        .trust{
+                           width: 162px; 
+                           height: 94px;
+                           font-size: 14px;
+                           background-position:center 0;
+                           padding: 70px 0 0 40px;
+                        }
+                    }   
+                }
+                .btn-discover{
+                    width: 167px;
+                    height: 40px;
+                    margin: 30px 0 0 80px;
+                }
+            }
+        }
+    }
+}

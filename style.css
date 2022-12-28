@@ -730,6 +730,81 @@ body {
   margin-top: 50px;
 }
 
+@media (max-width: 375px) {
+  .frame {
+    width: 375px;
+    height: 1231px;
+    margin: 0 auto 50px 0;
+    padding: 0 15px;
+  }
+  .frame .about {
+    width: 375px;
+    display: block;
+  }
+  .frame .about .img-about {
+    width: 345px;
+    height: 462px;
+    margin-bottom: 30px;
+  }
+  .frame .about .img-about .frame-1 {
+    width: 188px;
+    height: 293px;
+  }
+  .frame .about .img-about .middle {
+    margin: 12px 0 0 12px;
+  }
+  .frame .about .img-about .middle img {
+    width: 291px;
+    height: 358px;
+  }
+  .frame .about .img-about .close {
+    margin: 300px 0 0 103px;
+  }
+  .frame .about .img-about .close img {
+    width: 241px;
+    height: 162px;
+  }
+  .frame .about .content-about {
+    width: 345px;
+    height: 739px;
+    margin: 0 15px;
+  }
+  .frame .about .content-about .text-4 {
+    width: 345px;
+    height: 76px;
+    margin: 0 0 15px 0;
+    font-size: 28px;
+  }
+  .frame .about .content-about .text-5 {
+    width: 345px;
+    height: 330px;
+    font-size: 14px;
+    margin: 0;
+  }
+  .frame .about .content-about .cards-3 {
+    width: 344px;
+    height: 208px;
+  }
+  .frame .about .content-about .cards-3 .card-3-1 .mission,
+.frame .about .content-about .cards-3 .card-3-1 .vision,
+.frame .about .content-about .cards-3 .card-3-1 .team,
+.frame .about .content-about .cards-3 .card-3-1 .trust,
+.frame .about .content-about .cards-3 .card-3-2 .mission,
+.frame .about .content-about .cards-3 .card-3-2 .vision,
+.frame .about .content-about .cards-3 .card-3-2 .team,
+.frame .about .content-about .cards-3 .card-3-2 .trust {
+    width: 162px;
+    height: 94px;
+    font-size: 14px;
+    background-position: center 0;
+    padding: 70px 0 0 40px;
+  }
+  .frame .about .content-about .btn-discover {
+    width: 167px;
+    height: 40px;
+    margin: 30px 0 0 80px;
+  }
+}
 .why {
   width: 1920px;
   height: 655px;
@@ -811,6 +886,76 @@ body {
   align-self: center;
 }
 
+@media (max-width: 375px) {
+  .why {
+    width: 375px;
+    height: 684px;
+    padding: 0 15px;
+  }
+  .why .content {
+    width: 345px;
+    height: 584px;
+    display: block;
+  }
+  .why .content .text-6 {
+    width: 345px;
+    height: 337px;
+    padding-top: 280px;
+  }
+  .why .content .text-6 .text-6-1 {
+    width: 210px;
+    height: 38px;
+    margin: 15px 0 0 60px;
+    font-size: 28px;
+  }
+  .why .content .text-6 .text-6-2 {
+    font-size: 14px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .why .content .text-6 .choose {
+    width: 345px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .why .content .text-6 .choose .choose-1,
+.why .content .text-6 .choose .choose-2 {
+    width: 345px;
+    height: 22px;
+  }
+  .why .content .text-6 .choose .choose-1 .proper,
+.why .content .text-6 .choose .choose-1 .expert,
+.why .content .text-6 .choose .choose-1 .clean,
+.why .content .text-6 .choose .choose-1 .home,
+.why .content .text-6 .choose .choose-2 .proper,
+.why .content .text-6 .choose .choose-2 .expert,
+.why .content .text-6 .choose .choose-2 .clean,
+.why .content .text-6 .choose .choose-2 .home {
+    width: 158px;
+    height: 22px;
+    padding: 0 0 0 35px;
+    background-position: -10px;
+  }
+  .why .content .text-6 .btn-discover {
+    width: 167px;
+    height: 40px;
+    margin-left: 80px;
+  }
+  .why .content .img-why {
+    width: 345px;
+    height: 217px;
+    align-self: center;
+    margin-top: -300px;
+  }
+  .why .content .img-why img {
+    width: 345px;
+    height: 217px;
+  }
+}
 .process {
   width: 1920px;
   height: 599px;
