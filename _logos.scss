@@ -19,4 +19,21 @@
 [class*="logos-"]{
     width: 202px;
     height: 100px;
-} 
+}
+@media(max-width:375px) {
+    .logos{
+        width: 375px;
+        height: 70px;
+        margin: 50px 0;
+        display: block;
+        background-image: url("images/morris.png"), url("images/forest.png");
+        background-repeat: no-repeat;
+        background-position: 10%, 90%;
+        background-size: 141px, 112px;
+        .logos-1,
+        .logos-2,
+        .logos-3{
+        display: none;    
+        } 
+     }
+}

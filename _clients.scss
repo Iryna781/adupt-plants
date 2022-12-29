@@ -101,3 +101,86 @@
         }
     }
 }
+@media(max-width:375px){
+    .clients{
+        width: 375px;
+        margin: 0 0 50px 0;   
+    }
+    .content-clients{
+        width: 345px;
+        height: 634px;
+        margin: 100px 15px 0 15px;
+        text-align: center;
+        .textup{
+            width: 345px;
+            height: 163px;
+            display: block;
+            margin-bottom: 40px;
+            .text-client{
+                width: 345px;
+                height: 163px;
+                .clients-title{
+                    margin: 0 0 15px 0;
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            .frame-client{
+                display: none;
+            }   
+        }
+        .cards-client{
+            width: 345px;
+            height: 431px;
+            display: block;
+            .card-client-2{
+                display: none;
+                .img-client-2{
+                    display: none;
+                }
+            }
+            .card-client-1{
+               width: 345px; 
+               height: 431px;
+               display: block;
+               padding: 20px;
+               .img-client-1{
+                width: 135px;
+                height: 183px;
+                margin:0;
+                   img{
+                       width: 135px;
+                       height: 183px;
+                   }
+               }
+               .client-text{
+                width: 305px;
+                height: 178px;
+                margin: 30px 0 0 0;
+                p{
+                    width: 305px;
+                    height: 109px;
+                    font-size: 14px;
+                    margin:0 0 15px 0;
+                    text-align: left;
+                }
+                .stars{
+                    width: 305px;
+                    height: 40px;
+                    background-image: url("images/star.png");
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    .stars-1,
+                    .stars-2{
+                        width: 81px;
+                        height: 22px;
+                        font-size: 16px;
+                    }
+                }
+               }
+            }
+        }
+    }  
+}

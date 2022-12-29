@@ -132,3 +132,72 @@
         }  
     }
 }
+@media(max-width:375px){
+    .blog{
+        width: 375px;
+        height: 616px;
+        margin: 0 0 50px 0;
+        .blog-text{
+           width: 345px; 
+           height: 616px;
+           margin: 0 15px;
+           .blog-up{
+            width: 345px;
+            height: 168px;
+            margin: 0 0 40px 0;
+                .up{
+                   font-size: 28px; 
+                }
+                p{
+                    font-size: 14px;
+                } 
+            }      
+           .blog-card{
+               width: 345px;
+               height: 408px;
+               display: block;
+               border-radius: 5px;
+               padding: 30px 20px;
+               .blog-1{
+                display: none;
+               }
+                .blog-2{
+                    background-image: url("images/ma.png");
+                    background-repeat: no-repeat;
+                    background-position: 150px 0;
+                    box-shadow: none;
+                    width: 305px;
+                    height: 348px;  
+                    .blog-garden-1{
+                        width: 122px;
+                        height: 30px;
+                        margin: 0;
+                    }
+                    .blog-4{
+                        width: 277px;
+                        height: 44px;
+                        font-size: 16px;
+                        margin: 40px 0 15px 0;
+                    }
+                    p{
+                        width: 305px;
+                        height: 154px;
+                        font-size: 14px;
+                        margin: 0 0 30px 0;
+                    }
+                    .blog-down-1{
+                        width: 305px;
+                        height: 35px;
+                        background-image: url("images/ProfileDate.png");
+                        border-top: 1px solid white;
+                        background-size: 100%;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }  
+        }
+        .slider{
+           display: none;
+        }
+    }
+}
