@@ -1850,6 +1850,7 @@ body {
     display: block;
     border-radius: 5px;
     padding: 30px 20px;
+    filter: drop-shadow(2px 11px 30px rgba(51, 51, 51, 0.08));
   }
   .blog .blog-text .blog-card .blog-1 {
     display: none;
@@ -1884,7 +1885,7 @@ body {
     height: 35px;
     background-image: url("images/ProfileDate.png");
     border-top: 1px solid white;
-    background-size: 100%;
+    background-size: 90%;
     background-repeat: no-repeat;
   }
   .blog .slider {
@@ -2084,4 +2085,130 @@ body {
   cursor: pointer;
   font-size: 18px;
   margin: 33px 100px 42px 0;
+}
+
+@media (max-width: 375px) {
+  .footer {
+    width: 375px;
+    height: 1155px;
+  }
+  .footer .footer-big {
+    width: 375px;
+    height: 1081px;
+    margin-top: 90px;
+  }
+  .footer .footer-big .footer-text {
+    width: 344px;
+    height: 774px;
+    margin: 139px 15px 41px 15px;
+    display: block;
+  }
+  .footer .footer-big .footer-text .subscribe {
+    width: 344px;
+    height: 212px;
+  }
+  .footer .footer-big .footer-text .subscribe .sub {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .footer .footer-big .footer-text .subscribe p {
+    font-size: 14px;
+    margin: 0 0 30px 0;
+  }
+  .footer .footer-big .footer-text .subscribe .email {
+    height: 30px;
+    padding-top: 10px;
+  }
+  .footer .footer-big .footer-text .subscribe .sub-frame {
+    width: 344px;
+    height: 50px;
+    border-top: 1px solid #FFFFFF;
+    background-image: url("images/Socials.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 180px;
+  }
+  .footer .footer-big .footer-text .contacts {
+    width: 266px;
+    height: 126px;
+    margin: 40px 0;
+  }
+  .footer .footer-big .footer-text .contacts .sub {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+  }
+  .footer .footer-big .footer-text .contacts p {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+  .footer .footer-big .footer-text .links {
+    width: 260px;
+    height: 158px;
+    margin-bottom: 40px;
+  }
+  .footer .footer-big .footer-text .links .sub {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+  }
+  .footer .footer-big .footer-text .links .useful .first,
+.footer .footer-big .footer-text .links .useful .second {
+    font-size: 14px;
+  }
+  .footer .footer-big .footer-text .links .useful .first p,
+.footer .footer-big .footer-text .links .useful .second p {
+    margin: 0 0 10px 0;
+  }
+  .footer .footer-big .footer-text .popular {
+    width: 136px;
+    height: 158px;
+    margin-bottom: 41px;
+  }
+  .footer .footer-big .footer-text .popular .sub {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+  }
+  .footer .footer-big .footer-text .popular p {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+  }
+  .footer .footer-big .footer-down {
+    width: 345px;
+    height: 87px;
+    display: block;
+    margin: 0 15px;
+    padding: 15px 30px;
+  }
+  .footer .footer-big .footer-down .copyright,
+.footer .footer-big .footer-down .line {
+    font-size: 12px;
+    text-align: center;
+  }
+  .footer .footer-big .footer-down .line {
+    width: 285px;
+    height: 19px;
+  }
+  .footer .footer-big .footer-down .copyright {
+    width: 286px;
+    height: 32px;
+  }
+  .footer .footer-small {
+    display: block;
+    width: 320px;
+    height: 179px;
+    border-radius: 5px;
+    transform: translate(8%, 0);
+  }
+  .footer .footer-small .small-text {
+    width: 220px;
+    height: 54px;
+    font-size: 20px;
+    margin: 30px 50px 25px 50px;
+  }
+  .footer .footer-small .btn-get {
+    width: 153px;
+    height: 40px;
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-left: 90px;
+  }
 }/*# sourceMappingURL=style.css.map */

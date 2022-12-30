@@ -158,6 +158,7 @@
                display: block;
                border-radius: 5px;
                padding: 30px 20px;
+               filter: drop-shadow(2px 11px 30px rgba(51, 51, 51, 0.08));
                .blog-1{
                 display: none;
                }
@@ -190,7 +191,7 @@
                         height: 35px;
                         background-image: url("images/ProfileDate.png");
                         border-top: 1px solid white;
-                        background-size: 100%;
+                        background-size: 90%;
                         background-repeat: no-repeat;
                     }
                 }
