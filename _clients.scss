@@ -43,8 +43,7 @@
             background-repeat: no-repeat;
             background-position: left, right;
             cursor: pointer;
-        }
-        
+        }   
     }
     .cards-client{
         width: 1410px;
@@ -97,9 +96,91 @@
                 }
             }
            }
-
         }
     }
+}
+@media(max-width:768px){
+    .clients{
+        width: 768px;
+        margin: 0 0 50px 0;   
+    }
+    .content-clients{
+        width: 728px;
+        height: 634px;
+        margin: 100px 20px 0 20px;
+        text-align: center;
+        .textup{
+            width: 728px;
+            height: 163px;
+            display: block;
+            margin-bottom: 40px;
+            .text-client{
+                width: 728px;
+                height: 163px;
+                .clients-title{
+                    margin: 0 0 15px 0;
+                    font-size: 32px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+            .frame-client{
+                display: none;
+            }   
+        }
+        .cards-client{
+            width: 728px;
+            height: 431px;
+            display: block;
+            .card-client-2{
+                display: none;
+                .img-client-2{
+                    display: none;
+                }
+            }
+            .card-client-1{
+               width: 728px; 
+               height: 431px;
+               display: block;
+               padding: 20px;
+               .img-client-1{
+                width: 166px;
+                height: 202px;
+                margin:0;
+                   img{
+                       width: 166px;
+                       height: 202px;
+                   }
+               }
+               .client-text{
+                width: 605px;
+                height: 178px;
+                margin: 20px 0 0 0;
+                p{
+                    width: 605px;
+                    height: 86px;
+                    font-size: 14px;
+                    margin:0 0 15px 0;
+                    text-align: left;
+                }
+                .stars{
+                    width: 605px;
+                    height: 60px;
+                    background-image: url("images/star.png");
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    .stars-1,
+                    .stars-2{
+                        width: 81px;
+                        height: 22px;
+                        font-size: 16px;
+                    }
+                }
+               }
+            }
+        }
+    }  
 }
 @media(max-width:375px){
     .clients{

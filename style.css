@@ -683,12 +683,103 @@ body {
   color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  .service {
+    width: 768px;
+    height: 1261px;
+    margin: 0 auto 50px auto;
+  }
+  .service .text-3 {
+    width: 702px;
+    height: 163px;
+    margin: 0 32px 30px 32px;
+  }
+  .service .text-3 .title {
+    font-size: 32px;
+  }
+  .service .text-3 p {
+    margin: 15px 0 0 0;
+    font-size: 16px;
+  }
+  .service .cards {
+    width: 702px;
+    height: 1068px;
+    margin: 0 32px 50px 32px;
+    display: block;
+  }
+  .service .cards .cards-1,
+.service .cards .cards-2 {
+    display: block;
+    width: 702px;
+    height: 524px;
+  }
+  .service .cards .cards-1 .cards-1,
+.service .cards .cards-2 .cards-1 {
+    margin-bottom: 20px;
+  }
+  .service .cards .cards-1 .card-1,
+.service .cards .cards-1 .card-1-1,
+.service .cards .cards-2 .card-1,
+.service .cards .cards-2 .card-1-1 {
+    width: 702px;
+    height: 116px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .service .cards .cards-1 .card-1 .imag img,
+.service .cards .cards-1 .card-1-1 .imag img,
+.service .cards .cards-2 .card-1 .imag img,
+.service .cards .cards-2 .card-1-1 .imag img {
+    width: 60px;
+    height: 60px;
+    margin: 33px 40px;
+  }
+  .service .cards .cards-1 .card-1 .cardd,
+.service .cards .cards-1 .card-1-1 .cardd,
+.service .cards .cards-2 .card-1 .cardd,
+.service .cards .cards-2 .card-1-1 .cardd {
+    width: 420px;
+    height: 108px;
+  }
+  .service .cards .cards-1 .card-1 .cardd .mini-title,
+.service .cards .cards-1 .card-1-1 .cardd .mini-title,
+.service .cards .cards-2 .card-1 .cardd .mini-title,
+.service .cards .cards-2 .card-1-1 .cardd .mini-title {
+    width: 350px;
+    height: 32px;
+    font-size: 18px;
+    color: #212529;
+    margin: 10px 0 7px 0;
+  }
+  .service .cards .cards-1 .card-1 .cardd p,
+.service .cards .cards-1 .card-1-1 .cardd p,
+.service .cards .cards-2 .card-1 .cardd p,
+.service .cards .cards-2 .card-1-1 .cardd p {
+    width: 350px;
+    height: 58px;
+    font-size: 16px;
+    text-align: start;
+    margin: 0;
+    color: #676767;
+  }
+  .service .cards .cards-1 .card-1-1,
+.service .cards .cards-2 .card-1-1 {
+    background-color: #ffffff;
+    background-image: url("images/sheeet.png");
+    background-position: 7% 50%;
+    padding-left: 50px;
+  }
+  .service .cards .cards-1 .card-1-1 img,
+.service .cards .cards-2 .card-1-1 img {
+    display: none;
+  }
+}
 @media (max-width: 375px) {
   .service {
     width: 375px;
     height: 1261px;
     margin: 0 auto 50px auto;
-    padding: 0;
   }
   .service .text-3 {
     width: 344px;
@@ -896,6 +987,83 @@ body {
   margin-top: 50px;
 }
 
+@media (max-width: 768px) {
+  .frame {
+    width: 768px;
+    height: 1444px;
+    margin: 0 auto 50px 0;
+    padding: 0 15px;
+  }
+  .frame .about {
+    width: 768px;
+    height: 1444px;
+    display: block;
+  }
+  .frame .about .img-about {
+    width: 700px;
+    height: 824px;
+    margin-bottom: 30px;
+  }
+  .frame .about .img-about .frame-1 {
+    width: 398px;
+    height: 564px;
+  }
+  .frame .about .img-about .middle {
+    margin: 28px 0 0 28px;
+  }
+  .frame .about .img-about .middle img {
+    width: 498px;
+    height: 668px;
+  }
+  .frame .about .img-about .close {
+    margin: 520px 0 0 284px;
+  }
+  .frame .about .img-about .close img {
+    width: 444px;
+    height: 302px;
+  }
+  .frame .about .content-about {
+    width: 724px;
+    height: 590px;
+    margin: 0 20px;
+  }
+  .frame .about .content-about .text-4 {
+    width: 724px;
+    height: 76px;
+    margin: 0 0 15px 0;
+    font-size: 32px;
+  }
+  .frame .about .content-about .text-5 {
+    width: 724px;
+    height: 220px;
+    font-size: 16px;
+    margin: 0;
+  }
+  .frame .about .content-about .cards-3 {
+    width: 524px;
+    height: 208px;
+    margin-left: 100px;
+  }
+  .frame .about .content-about .cards-3 .card-3-1 .mission,
+.frame .about .content-about .cards-3 .card-3-1 .vision,
+.frame .about .content-about .cards-3 .card-3-1 .team,
+.frame .about .content-about .cards-3 .card-3-1 .trust,
+.frame .about .content-about .cards-3 .card-3-2 .mission,
+.frame .about .content-about .cards-3 .card-3-2 .vision,
+.frame .about .content-about .cards-3 .card-3-2 .team,
+.frame .about .content-about .cards-3 .card-3-2 .trust {
+    width: 162px;
+    height: 94px;
+    font-size: 14px;
+    background-position: center 0;
+    padding: 70px 0 0 40px;
+  }
+  .frame .about .content-about .btn-discover {
+    width: 167px;
+    height: 40px;
+    margin: 30px 0 0 280px;
+  }
+}
 @media (max-width: 375px) {
   .frame {
     width: 375px;
@@ -950,6 +1118,7 @@ body {
   .frame .about .content-about .cards-3 {
     width: 344px;
     height: 208px;
+    margin-left: 0;
   }
   .frame .about .content-about .cards-3 .card-3-1 .mission,
 .frame .about .content-about .cards-3 .card-3-1 .vision,
@@ -1052,26 +1221,101 @@ body {
   align-self: center;
 }
 
+@media (max-width: 768px) {
+  .why {
+    width: 768px;
+    height: 844px;
+    padding: 0 15px;
+    margin-bottom: 50px;
+  }
+  .why .content {
+    width: 738px;
+    height: 764px;
+    display: block;
+  }
+  .why .content .text-6 {
+    width: 700px;
+    height: 437px;
+    padding-top: 396px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .why .content .text-6 .text-6-1 {
+    width: 260px;
+    height: 44px;
+    margin: 15px 0 0 220px;
+    font-size: 32px;
+  }
+  .why .content .text-6 .text-6-2 {
+    font-size: 16px;
+    margin: 0 17px 40px 17px;
+  }
+  .why .content .text-6 .choose {
+    width: 700px;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .why .content .text-6 .choose .choose-1,
+.why .content .text-6 .choose .choose-2 {
+    width: 700px;
+    height: 42px;
+  }
+  .why .content .text-6 .choose .choose-1 .proper,
+.why .content .text-6 .choose .choose-1 .expert,
+.why .content .text-6 .choose .choose-1 .clean,
+.why .content .text-6 .choose .choose-1 .home,
+.why .content .text-6 .choose .choose-2 .proper,
+.why .content .text-6 .choose .choose-2 .expert,
+.why .content .text-6 .choose .choose-2 .clean,
+.why .content .text-6 .choose .choose-2 .home {
+    width: 258px;
+    height: 42px;
+    padding: 10px 0 0 35px;
+    background-position: 10px;
+  }
+  .why .content .text-6 .btn-discover {
+    width: 167px;
+    height: 40px;
+    margin-left: 0;
+  }
+  .why .content .img-why {
+    width: 738px;
+    height: 317px;
+    align-self: center;
+    margin-top: -360px;
+    margin-left: 140px;
+  }
+  .why .content .img-why img {
+    width: 444px;
+    height: 317px;
+  }
+}
 @media (max-width: 375px) {
   .why {
     width: 375px;
     height: 684px;
     padding: 0 15px;
+    margin-bottom: 50px;
   }
   .why .content {
     width: 345px;
-    height: 584px;
+    height: 624px;
     display: block;
   }
   .why .content .text-6 {
     width: 345px;
     height: 337px;
     padding-top: 280px;
+    margin-left: 0;
   }
   .why .content .text-6 .text-6-1 {
     width: 210px;
     height: 38px;
-    margin: 15px 0 0 60px;
+    margin: 15px 0 0 66px;
     font-size: 28px;
   }
   .why .content .text-6 .text-6-2 {
@@ -1109,13 +1353,13 @@ body {
   .why .content .text-6 .btn-discover {
     width: 167px;
     height: 40px;
-    margin-left: 80px;
+    margin-left: 0;
   }
   .why .content .img-why {
     width: 345px;
     height: 217px;
-    align-self: center;
     margin-top: -300px;
+    margin-left: 0;
   }
   .why .content .img-why img {
     width: 345px;
@@ -1207,6 +1451,134 @@ body {
   color: #212529;
 }
 
+@media (max-width: 768px) {
+  .process {
+    width: 768px;
+    height: 1090px;
+    margin-bottom: 55px;
+  }
+  .process .process-title {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  .process .text-7 {
+    width: 728px;
+    height: 110px;
+    font-size: 18px;
+    margin: 0 20px 30px 20px;
+  }
+  .process .cards-4 {
+    width: 735px;
+    height: 897px;
+    margin: 0 15px;
+    display: block;
+  }
+  .process .cards-4 .consultation,
+.process .cards-4 .design,
+.process .cards-4 .maintenance,
+.process .cards-4 .complete {
+    width: 735px;
+    height: 208px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+    background-image: url("images/list.png");
+    background-repeat: no-repeat;
+    background-position: 610px 60px;
+  }
+  .process .cards-4 .consultation .text-8,
+.process .cards-4 .design .text-8,
+.process .cards-4 .maintenance .text-8,
+.process .cards-4 .complete .text-8 {
+    font-size: 22px;
+    margin: 10px 0 10px 0;
+    color: #212529;
+  }
+  .process .cards-4 .consultation .text-9,
+.process .cards-4 .design .text-9,
+.process .cards-4 .maintenance .text-9,
+.process .cards-4 .complete .text-9 {
+    margin: 0;
+    color: #676767;
+    font-size: 18px;
+  }
+  .process .cards-4 .consultation .text-9 p,
+.process .cards-4 .design .text-9 p,
+.process .cards-4 .maintenance .text-9 p,
+.process .cards-4 .complete .text-9 p {
+    width: 305px;
+    height: 60px;
+  }
+  .process .cards-4 .consultation .card-img-1,
+.process .cards-4 .consultation .card-img-2,
+.process .cards-4 .consultation .card-img-3,
+.process .cards-4 .consultation .card-img-4,
+.process .cards-4 .design .card-img-1,
+.process .cards-4 .design .card-img-2,
+.process .cards-4 .design .card-img-3,
+.process .cards-4 .design .card-img-4,
+.process .cards-4 .maintenance .card-img-1,
+.process .cards-4 .maintenance .card-img-2,
+.process .cards-4 .maintenance .card-img-3,
+.process .cards-4 .maintenance .card-img-4,
+.process .cards-4 .complete .card-img-1,
+.process .cards-4 .complete .card-img-2,
+.process .cards-4 .complete .card-img-3,
+.process .cards-4 .complete .card-img-4 {
+    width: 672px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 50px, 30px;
+    background-position: left, right;
+  }
+  .process .cards-4 .consultation .card-img-1 img,
+.process .cards-4 .consultation .card-img-2 img,
+.process .cards-4 .consultation .card-img-3 img,
+.process .cards-4 .consultation .card-img-4 img,
+.process .cards-4 .design .card-img-1 img,
+.process .cards-4 .design .card-img-2 img,
+.process .cards-4 .design .card-img-3 img,
+.process .cards-4 .design .card-img-4 img,
+.process .cards-4 .maintenance .card-img-1 img,
+.process .cards-4 .maintenance .card-img-2 img,
+.process .cards-4 .maintenance .card-img-3 img,
+.process .cards-4 .maintenance .card-img-4 img,
+.process .cards-4 .complete .card-img-1 img,
+.process .cards-4 .complete .card-img-2 img,
+.process .cards-4 .complete .card-img-3 img,
+.process .cards-4 .complete .card-img-4 img {
+    display: none;
+  }
+  .process .cards-4 .consultation .card-img-1,
+.process .cards-4 .design .card-img-1,
+.process .cards-4 .maintenance .card-img-1,
+.process .cards-4 .complete .card-img-1 {
+    background-image: url("images/Consultations.png"), url("images/fir.png");
+  }
+  .process .cards-4 .consultation .card-img-2,
+.process .cards-4 .design .card-img-2,
+.process .cards-4 .maintenance .card-img-2,
+.process .cards-4 .complete .card-img-2 {
+    background-image: url("images/Work.png"), url("images/sec.png");
+  }
+  .process .cards-4 .consultation .card-img-3,
+.process .cards-4 .design .card-img-3,
+.process .cards-4 .maintenance .card-img-3,
+.process .cards-4 .complete .card-img-3 {
+    background-image: url("images/Maintenance.png"), url("images/thir.png");
+  }
+  .process .cards-4 .consultation .card-img-4,
+.process .cards-4 .design .card-img-4,
+.process .cards-4 .maintenance .card-img-4,
+.process .cards-4 .complete .card-img-4 {
+    background-image: url("images/Complete.png"), url("images/for.png");
+  }
+  .process .cards-4 .consultation,
+.process .cards-4 .design,
+.process .cards-4 .maintenance {
+    margin-bottom: 20px;
+  }
+}
 @media (max-width: 375px) {
   .process {
     width: 375px;
@@ -1358,6 +1730,27 @@ body {
   margin: 98px 60px 0 0;
 }
 
+@media (max-width: 768px) {
+  .cta {
+    width: 728px;
+    height: 324px;
+    margin: 0 20px 50px 20px;
+  }
+  .cta img {
+    width: 728px;
+    height: 324px;
+  }
+  .cta .btn-call {
+    width: 168px;
+    height: 50px;
+    box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
+    background-image: url("images/phonegreen.png");
+    background-position: 10%;
+    transform: translate(-336%);
+    margin: 184px 103px 0 103px;
+    padding: 0;
+  }
+}
 @media (max-width: 375px) {
   .cta {
     width: 345px;
@@ -1469,6 +1862,68 @@ body {
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .team-1 {
+    width: 768px;
+    height: 654px;
+    margin: 0 0 50px 0;
+    padding: 0 15px;
+  }
+  .team-1 .text-team {
+    width: 738px;
+    height: 233px;
+    margin: 0;
+    display: block;
+  }
+  .team-1 .text-team .team-text {
+    width: 738px;
+    height: 163px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .team-1 .text-team .team-text .team-title {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+  }
+  .team-1 .text-team .team-text p {
+    font-size: 20px;
+  }
+  .team-1 .text-team .btn-discover {
+    width: 167px;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 272px;
+  }
+  .team-1 .cards-team {
+    width: 330px;
+    height: 408px;
+    margin: 40px 0 30px 192px;
+    display: block;
+  }
+  .team-1 .cards-team .experts {
+    display: none;
+  }
+  .team-1 .cards-team .expert img {
+    width: 330px;
+    height: 408px;
+    border-radius: 5px;
+  }
+  .team-1 .cards-team .expert .text-cards {
+    width: 330px;
+    height: 62px;
+    border-radius: 5px;
+    transform: translate(0, -107%);
+  }
+  .team-1 .cards-team .expert .text-cards .team-text {
+    font-size: 20px;
+    margin-top: 7px;
+  }
+  .team-1 .cards-team .expert .text-cards p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+  }
+}
 @media (max-width: 375px) {
   .team-1 {
     width: 375px;
@@ -1502,9 +1957,9 @@ body {
     margin-left: 85px;
   }
   .team-1 .cards-team {
-    width: 345px;
+    width: 330px;
     height: 345px;
-    margin: 40px 0 30px 0;
+    margin: 40px 22px 30px 22px;
     display: block;
   }
   .team-1 .cards-team .experts {
@@ -1512,7 +1967,7 @@ body {
   }
   .team-1 .cards-team .expert img {
     width: 330px;
-    height: 343px;
+    height: 345px;
     border-radius: 5px;
   }
   .team-1 .cards-team .expert .text-cards {
@@ -1642,6 +2097,89 @@ body {
   color: #212529;
 }
 
+@media (max-width: 768px) {
+  .clients {
+    width: 768px;
+    margin: 0 0 50px 0;
+  }
+  .content-clients {
+    width: 728px;
+    height: 634px;
+    margin: 100px 20px 0 20px;
+    text-align: center;
+  }
+  .content-clients .textup {
+    width: 728px;
+    height: 163px;
+    display: block;
+    margin-bottom: 40px;
+  }
+  .content-clients .textup .text-client {
+    width: 728px;
+    height: 163px;
+  }
+  .content-clients .textup .text-client .clients-title {
+    margin: 0 0 15px 0;
+    font-size: 32px;
+  }
+  .content-clients .textup .text-client p {
+    font-size: 18px;
+  }
+  .content-clients .textup .frame-client {
+    display: none;
+  }
+  .content-clients .cards-client {
+    width: 728px;
+    height: 431px;
+    display: block;
+  }
+  .content-clients .cards-client .card-client-2 {
+    display: none;
+  }
+  .content-clients .cards-client .card-client-2 .img-client-2 {
+    display: none;
+  }
+  .content-clients .cards-client .card-client-1 {
+    width: 728px;
+    height: 431px;
+    display: block;
+    padding: 20px;
+  }
+  .content-clients .cards-client .card-client-1 .img-client-1 {
+    width: 166px;
+    height: 202px;
+    margin: 0;
+  }
+  .content-clients .cards-client .card-client-1 .img-client-1 img {
+    width: 166px;
+    height: 202px;
+  }
+  .content-clients .cards-client .card-client-1 .client-text {
+    width: 605px;
+    height: 178px;
+    margin: 20px 0 0 0;
+  }
+  .content-clients .cards-client .card-client-1 .client-text p {
+    width: 605px;
+    height: 86px;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    text-align: left;
+  }
+  .content-clients .cards-client .card-client-1 .client-text .stars {
+    width: 605px;
+    height: 60px;
+    background-image: url("images/star.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .content-clients .cards-client .card-client-1 .client-text .stars .stars-1,
+.content-clients .cards-client .card-client-1 .client-text .stars .stars-2 {
+    width: 81px;
+    height: 22px;
+    font-size: 16px;
+  }
+}
 @media (max-width: 375px) {
   .clients {
     width: 375px;

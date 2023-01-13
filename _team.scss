@@ -25,7 +25,6 @@
               margin: 0;
             }
         }
-        
         .btn-discover{
             align-self: flex-end;
             width: 190px;
@@ -58,8 +57,7 @@
                 font-size: 24px;
                 text-align: center;
                 margin: 147px auto 0 auto;
-                background-position: 0;
-                
+                background-position: 0;    
             }    
         }
         .expert{ 
@@ -85,10 +83,90 @@
                     text-align: center;
                     margin: 0;
                 }
-            }
-                
+            }      
         }
     }
+}
+@media(max-width:768px){
+    .team-1{
+        width: 768px;
+        height: 654px;
+        margin: 0 0 50px 0;
+        padding: 0 15px;
+        .text-team{
+            width: 738px;
+            height: 233px;
+            margin: 0;
+            display: block;
+            .team-text{
+                width: 738px;
+                height: 163px;
+                text-align: center;
+                margin-bottom: 30px;
+                .team-title{
+                    font-size: 32px;
+                    margin: 0 0 15px 0;
+                }
+                p{
+                  font-size: 20px; 
+                }
+            }
+            .btn-discover{
+                width: 167px;
+                height: 40px;
+                font-size: 18px;
+                margin-left: 272px;
+            }
+        }
+        .cards-team{
+            width: 330px;
+            height: 408px;
+            margin: 40px 0 30px 192px;
+            display: block;
+            .experts{
+                display: none;
+            }
+            .expert{ 
+                img{
+                    width: 330px;
+                    height: 408px;
+                    border-radius: 5px;
+                }
+                .text-cards{
+                     width: 330px;
+                     height: 62px;
+                     border-radius: 5px;
+                     transform: translate(0, -107%);
+                    .team-text{
+                         font-size: 20px;
+                          margin-top: 7px; 
+                    }
+                    p{
+                        font-size: 16px;
+                        text-align: center;
+                        margin: 0;
+                    }
+                }      
+            }
+        }
+    }
+    // .slider{
+    //     width: 178px;
+    //     height: 6px;
+    //     margin: 0 96px;
+    //     display: flex;
+    //     justify-content: space-between;
+    //     .slider-mini{
+    //          width: 50px;
+    //          height: 6px;
+    //          border: 1px solid #00730C;
+    //          cursor: pointer;
+    //          background-color: #ffffff;
+    //          &:hover{
+    //             background-color: #00730C;
+    //         }
+    //     }
+    // }
 }
 @media(max-width:375px){
     .team-1{
@@ -114,7 +192,6 @@
                   font-size: 14px; 
                 }
             }
-            
             .btn-discover{
                 width: 167px;
                 height: 40px;
@@ -123,9 +200,9 @@
             }
         }
         .cards-team{
-            width: 345px;
+            width: 330px;
             height: 345px;
-            margin: 40px 0 30px 0;
+            margin: 40px 22px 30px 22px;
             display: block;
             .experts{
                 display: none;
@@ -134,7 +211,7 @@
                 
                 img{
                     width: 330px;
-                    height: 343px;
+                    height: 345px;
                     border-radius: 5px;
                 }
                 .text-cards{
@@ -151,8 +228,7 @@
                         text-align: center;
                         margin: 0;
                     }
-                }
-                    
+                }      
             }
         }
     }

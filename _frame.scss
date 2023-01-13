@@ -61,8 +61,6 @@
                 display: flex;
                 justify-content: space-between;
                 flex-direction: column;
-
-                
                 .card-3-1,
                 .card-3-2{
                     display: flex;
@@ -110,6 +108,82 @@
         }
     }
 }
+@media(max-width:768px){
+    .frame{
+        width: 768px;
+        height: 1444px;
+        margin: 0 auto 50px 0;
+        padding: 0 15px;
+        .about{
+            width: 768px;
+            height: 1444px;
+            display: block;
+            .img-about{
+                width: 700px;
+                height: 824px;
+                margin-bottom: 30px;
+                .frame-1{
+                    width: 398px;
+                    height: 564px;
+                } 
+                .middle{
+                    margin: 28px 0 0 28px;
+                    img{
+                        width: 498px;
+                        height: 668px; 
+                    }   
+                }
+                .close{
+                    margin: 520px 0 0 284px;
+                    img{
+                        width: 444px;
+                        height: 302px;
+                    }
+                }  
+            }
+            .content-about{
+                width: 724px;
+                height: 590px;
+                margin: 0 20px;
+                .text-4{
+                    width: 724px;
+                    height: 76px;
+                    margin:0 0 15px 0;
+                    font-size: 32px;
+                }
+                .text-5{
+                    width: 724px;
+                    height: 220px;
+                    font-size: 16px;
+                    margin: 0;
+                }
+                .cards-3{
+                    width: 524px;
+                    height: 208px;
+                    margin-left: 100px;
+                    .card-3-1,
+                    .card-3-2{
+                        .mission,
+                        .vision,
+                        .team,
+                        .trust{
+                           width: 162px; 
+                           height: 94px;
+                           font-size: 14px;
+                           background-position:center 0;
+                           padding: 70px 0 0 40px;
+                        }
+                    }   
+                }
+                .btn-discover{
+                    width: 167px;
+                    height: 40px;
+                    margin: 30px 0 0 280px;
+                }
+            }
+        }
+    }
+}
 @media(max-width:375px){
     .frame{
         width: 375px;
@@ -133,8 +207,7 @@
                     img{
                         width: 291px;
                         height: 358px; 
-                    }
-                    
+                    }   
                 }
                 .close{
                     margin: 300px 0 0 103px;
@@ -163,6 +236,7 @@
                 .cards-3{
                     width: 344px;
                     height: 208px;
+                    margin-left: 0;
                     .card-3-1,
                     .card-3-2{
                         .mission,
