@@ -238,6 +238,177 @@ body {
   margin-top: 46px;
 }
 
+@media (max-width: 768px) {
+  .header {
+    width: 768px;
+    height: 1012px;
+    margin: 0 auto 50px 0;
+  }
+  .header .top-navbar {
+    width: 768px;
+    height: 52px;
+    padding: 15px 20px;
+  }
+  .header .top-navbar .text {
+    width: 700px;
+    height: 28px;
+  }
+  .header .top-navbar .text .text-left {
+    width: 266px;
+    height: 28px;
+    font-size: 0;
+  }
+  .header .top-navbar .text .text-left .left-1,
+.header .top-navbar .text .text-left .left-2,
+.header .top-navbar .text .text-left .left-3 {
+    background-size: 20px;
+  }
+  .header .top-navbar .text .text-right {
+    width: 66px;
+    height: 28px;
+  }
+  .header .navbar {
+    width: 768px;
+    height: 58px;
+  }
+  .header .navbar .navbar-1 {
+    width: 700px;
+    height: 52px;
+    margin: 15px auto;
+    padding: 0 5px;
+  }
+  .header .navbar .navbar-1 a img {
+    width: 90px;
+    height: 40px;
+  }
+  .header .navbar .navbar-1 .text-1-1 {
+    width: 160px;
+    height: 40px;
+    background-image: url("images/menu.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+  }
+  .header .navbar .navbar-1 .text-1-1 .text-1-2 {
+    display: none;
+  }
+  .header .navbar .navbar-1 .text-1-1 .btn-call button {
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 0;
+  }
+  .header .header-frame {
+    width: 768px;
+    height: 448px;
+    margin-top: 440px;
+    padding: 0;
+  }
+  .header .header-frame .img {
+    margin: 322px 0 0 0;
+    height: 118px;
+  }
+  .header .header-frame .img img {
+    width: 136px;
+    height: 118px;
+  }
+  .header .header-frame .frame-text {
+    width: 600px;
+    height: 380px;
+    margin: 28px 10px 35px 0;
+  }
+  .header .header-frame .frame-text .frame-1 {
+    height: 196px;
+    margin: 0 0 0 42px;
+  }
+  .header .header-frame .frame-text .frame-1 .land {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .header .header-frame .frame-text .frame-1 h4 {
+    width: 520px;
+    height: 36px;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .header .header-frame .frame-text .frame-1 .lorem {
+    width: 520px;
+    font-size: 18px;
+    margin: 0 0 40px 0;
+  }
+  .header .header-frame .frame-text .btn-header {
+    width: 468px;
+    height: 98px;
+    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 16px;
+  }
+  .header .header-frame .frame-text .btn-header .btn-get {
+    border: 1px solid #00730C;
+    border-radius: 5px;
+    width: 303px;
+    height: 44px;
+    background-color: #00730C;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .header .header-frame .frame-text .btn-header .btn-see {
+    width: 268px;
+    height: 44px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 0;
+    background-image: url("images/Arrowright.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #676767;
+    font-size: 16px;
+  }
+  .header .header-frame .frame-text .tag {
+    width: 424px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 36px;
+  }
+  .header .header-frame .frame-text .tag .tag-2 {
+    display: none;
+  }
+  .header .header-frame .frame-text .tag .tag-1 {
+    width: 158px;
+    height: 44px;
+    background: linear-gradient(180deg, #FFF8F1 0%, #CBE5CE 100%);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header .header-frame .frame-text .tag .tag-1 .number {
+    width: 32px;
+    height: 36px;
+    color: #212529;
+    border-radius: 0;
+    background: transparent;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 14px;
+  }
+  .header .header-frame .frame-text .tag .tag-1 .text-2 {
+    font-size: 12px;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .header .header-frame .img-header {
+    margin-left: -708px;
+    margin-top: -438px;
+  }
+  .header .header-frame .img-header a img {
+    width: 768px;
+    height: 440px;
+  }
+}
 @media (max-width: 375px) {
   .header {
     height: 812px;
@@ -262,7 +433,7 @@ body {
     background-size: 20px;
   }
   .header .top-navbar .text .text-right {
-    width: 52px;
+    width: 62px;
     height: 16px;
     font-size: 12px;
   }
@@ -297,13 +468,8 @@ body {
   .header .navbar .navbar-1 .text-1-1 .btn-call button {
     width: 40px;
     height: 34px;
-    border: 1px solid #00730C;
-    background-color: #00730C;
     border-radius: 10px;
-    color: #FFFFFF;
     background-image: url("images/phone.png");
-    background-repeat: no-repeat;
-    cursor: pointer;
     font-size: 0;
   }
   .header .header-frame {
@@ -1342,9 +1508,6 @@ body {
     display: block;
   }
   .team-1 .cards-team .experts {
-    display: none;
-  }
-  .team-1 .cards-team .expert {
     display: none;
   }
   .team-1 .cards-team .expert img {
