@@ -132,6 +132,79 @@
         }  
     }
 }
+@media(max-width:768px){
+    .blog{
+        width: 768px;
+        height: 616px;
+        margin: 0 0 50px 0;
+        .blog-text{
+           width: 728px; 
+           height: 616px;
+           margin: 0 20px;
+           .blog-up{
+            width: 728px;
+            height: 168px;
+            margin: 0 0 40px 0;
+                .up{
+                   font-size: 32px; 
+                }
+                p{
+                    font-size: 18px;
+                } 
+            }      
+           .blog-card{
+               width: 728px;
+               height: 428px;
+               display: block;
+               border-radius: 10px;
+               padding: 30px 100px;
+               filter: drop-shadow(2px 11px 30px rgba(51, 51, 51, 0.08));
+               .blog-1{
+                display: none;
+               }
+                .blog-2{
+                    background-image: url("images/ma.png");
+                    background-repeat: no-repeat;
+                    background-position: 280px 0;
+                    box-shadow: none;
+                    width: 496px;
+                    height: 380px; 
+                    margin: 0 auto; 
+                    padding: 10px;
+                    .blog-garden-1{
+                        width: 122px;
+                        height: 30px;
+                        margin: 0;
+                    }
+                    .blog-4{
+                        width: 344px;
+                        height: 48px;
+                        font-size: 20px;
+                        margin: 30px 0 10px 0;
+                    }
+                    p{
+                        width: 364px;
+                        height: 154px;
+                        font-size: 16px;
+                        margin: 0 0 20px 0;
+                    }
+                    .blog-down-1{
+                        width: 384px;
+                        height: 60px;
+                        background-image: url("images/ProfileDate.png");
+                        border-top: 1px solid white;
+                        background-size: 100%;
+                        background-position: top;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }  
+        }
+        .slider{
+           display: none;
+        }
+    }
+}
 @media(max-width:375px){
     .blog{
         width: 375px;
@@ -168,7 +241,9 @@
                     background-position: 150px 0;
                     box-shadow: none;
                     width: 305px;
-                    height: 348px;  
+                    height: 348px; 
+                    margin: 0; 
+                    padding: 0;
                     .blog-garden-1{
                         width: 122px;
                         height: 30px;

@@ -152,6 +152,132 @@
         }
     }
 }
+@media(max-width:768px){
+    .footer{
+        width: 768px;
+        height: 1155px;
+        .footer-big{
+           width: 768px; 
+           height: 1081px;
+           margin-top: 90px;
+           .footer-text{
+            width: 728px;
+            height: 784px;
+            margin: 126px 20px 41px 20px;
+            display: block;
+            .subscribe{
+                width: 728px;
+                height: 212px;
+                .sub{
+                    font-size: 22px;
+                    margin-bottom: 15px;
+                }
+                p{
+                  font-size: 18px;
+                  margin: 0 0 30px 0; 
+                }
+                .email{
+                    height: 30px;
+                    padding-top: 0;
+                }
+                .sub-frame{
+                    width: 728px;
+                    height: 50px;
+                    border-top: 1px solid #FFFFFF;
+                    background-image: url("images/Socials.png");
+                    background-repeat: no-repeat;
+                    background-position: center left;
+                    background-size: 220px;
+                }
+            }
+            .contacts{
+                width: 400px;
+                height: 140px;
+                margin: 30px 0;
+                .sub{
+                    font-size: 22px;
+                    margin: 0 0 15px 0;
+                }
+                p{
+                  font-size: 18px;
+                  margin: 0 0 10px 0; 
+                }
+            }
+            .links{
+                width: 400px;
+                height: 172px;
+                margin-bottom: 30px;
+                .sub{
+                    font-size: 22px;
+                    margin: 0 0 15px 0;
+                }
+                .useful{
+                    .first,
+                    .second{
+                        font-size: 18px;
+                        p{
+                            margin: 0 0 10px 0;
+                        }
+                    }
+                }
+            }
+            .popular{
+                width: 400px;
+                height: 170px;
+                margin-bottom: 41px;
+                .sub{
+                    font-size: 22px;
+                    margin: 0 0 15px 0;
+                }
+                p{
+                  font-size: 18px;
+                  margin: 0 0 10px 0; 
+                }
+            }
+           }
+           .footer-down{
+            width: 728px;
+            height: 128px;
+            display: block;
+            margin: 0 20px;
+            padding: 30px 158px;
+            .copyright,
+            .line{
+                font-size: 18px;
+                text-align: center;
+            }
+            .line{
+                width: 400px;
+                height: 19px;
+            }
+            .copyright{
+                width: 400px;
+                height: 32px;
+            }
+           }    
+        }
+        .footer-small{
+            display: block;
+            width: 648px;
+            height: 179px;
+            border-radius: 5px;
+            transform: translate(8%, 0);
+            .small-text{
+                width: 420px;
+                height: 54px;
+                font-size: 26px;
+                margin: 20px 120px 10px 120px;
+            }
+            .btn-get{
+                width: 188px;
+                height: 60px;
+                padding: 15px 36px;
+                font-size: 20px;
+                margin:0 220px;
+            }
+        }
+    }
+}
 @media(max-width:375px){
     .footer{
         width: 375px;

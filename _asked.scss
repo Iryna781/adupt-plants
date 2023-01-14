@@ -72,6 +72,58 @@
         align-self: flex-end;
     }
 }
+@media(max-width:768px){
+    .asked{
+        width: 768px;
+        height: 786px;
+        display: block;
+        margin: 150px 0 50px 0;
+        .asked-text{
+            width: 728px;
+            height: 786px;
+            margin: 0 20px;
+            .asked-text-1{
+                width: 728px;
+                height: 201px;
+                margin: 0 0 42px 0;
+                text-align: center;
+                .asked-text-title{
+                    font-size: 32px;
+                    color: #000000;
+                    margin: 0 0 20px 0;
+                }
+                p{
+                    height: 86px;
+                    font-size: 18px;
+                }     
+            }
+            .asked-text-2{
+                width: 728px;
+                height: 542px;
+                .question{
+                    width: 728px;
+                    height: 246px;
+                    margin: 0 0 20px 0;
+                    .question-1,
+                    .question-2{
+                        width: 728px;
+                        height: 48px; 
+                        border-radius: 5px;
+                        font-size: 18px;
+                        padding: 10px 15px;
+                    }
+                    p{
+                        font-size: 18px;
+                        margin: 0 15px;
+                    }
+                }
+            }
+        }
+        .asked-img{
+            display: none;
+        }
+    }
+}
 @media(max-width:375px){
     .asked{
         width: 375px;
