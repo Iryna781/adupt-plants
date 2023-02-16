@@ -87,6 +87,48 @@
         }
     }
 }
+@media(max-width:1024px){
+    .team-1{
+        width: 1024px;
+        height: 574px;
+        margin: 50px 0;
+        .text-team{
+            width: 924px;
+            text-align: center;
+            display: block;
+            .team-text{
+                width: 924px;
+                height: 100%;
+                .team-title{
+                    font-size: 36px;
+                    margin: 0 0 20px 0;
+                }
+            }
+        }
+        .btn-discover{
+            display: none;
+        }
+        .cards-team{
+            width: 924px;
+            height: 372px;
+            margin: 50px auto;
+            display: flex;
+            justify-content: space-between;
+            .experts{
+                display: none;
+            }
+            .expert{
+               width: 300px;
+                img{
+                    width: 300px;
+                } 
+                .text-cards{
+                    width: 300px;
+                }  
+            }
+        }
+    }
+}
 @media(max-width:768px){
     .team-1{
         width: 768px;
@@ -150,23 +192,6 @@
             }
         }
     }
-    // .slider{
-    //     width: 178px;
-    //     height: 6px;
-    //     margin: 0 96px;
-    //     display: flex;
-    //     justify-content: space-between;
-    //     .slider-mini{
-    //          width: 50px;
-    //          height: 6px;
-    //          border: 1px solid #00730C;
-    //          cursor: pointer;
-    //          background-color: #ffffff;
-    //          &:hover{
-    //             background-color: #00730C;
-    //         }
-    //     }
-    // }
 }
 @media(max-width:375px){
     .team-1{
@@ -232,21 +257,4 @@
             }
         }
     }
-    // .slider{
-    //     width: 178px;
-    //     height: 6px;
-    //     margin: 0 96px;
-    //     display: flex;
-    //     justify-content: space-between;
-    //     .slider-mini{
-    //          width: 50px;
-    //          height: 6px;
-    //          border: 1px solid #00730C;
-    //          cursor: pointer;
-    //          background-color: #ffffff;
-    //          &:hover{
-    //             background-color: #00730C;
-    //         }
-    //     }
-    // }
 }

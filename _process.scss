@@ -70,6 +70,42 @@
         }
     }
 }
+@media(max-width:1024px){
+    .process{
+        width: 1024px;
+        height: 870px;
+        margin-bottom: 50px;
+        .process-title{
+            font-size: 36px;
+        }
+        .text-7{
+            width: 960px;
+            margin: 0 auto;
+        }
+        .cards-4{
+            width: 924px;
+            height: 712px;
+            margin: 30px 50px 0 50px;
+            display: block;
+            .consultation,
+            .design,
+            .maintenance,
+            .complete{
+               width: 340px;
+               height: 380px;
+            }
+            .design{
+                margin: -50px 0 0 120px;
+            }
+            .maintenance{
+                margin: -710px 0 0 400px;
+            }
+            .complete{
+                margin: -50px 0 0 580px;
+            }
+        }
+    }
+}
 @media(max-width:768px){
     .process{
         width: 768px;

@@ -20,6 +20,19 @@
         margin: 98px 60px 0 0;
     }  
 }
+@media(max-width:1024px){
+    .cta{
+        width: 924px;
+        height: 347px;
+        img{
+            width: 924px;
+            height: 347px;
+        }
+        .btn-call{
+            margin: 148px 60px 0 0;
+        }  
+    }
+}
 @media(max-width:768px){
     .cta{
         width: 728px;

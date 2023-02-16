@@ -74,6 +74,59 @@
        }   
     }
 }
+@media(max-width:1024px){
+    .why{
+        width: 1024px;
+        height: 655px;
+        padding: 50px;
+        margin-bottom: 50px;
+        .content{
+           width: 924px; 
+           height: 555px;
+           .text-6{
+            width: 462px;
+            height: 555px;
+            .text-6-1{
+                width: 462px;
+                height: 61px;
+                font-size: 36px;
+                text-align: center;
+            }
+            .text-6-2{
+                padding: 0 20px;
+                margin-bottom: 20px;
+            }
+            .choose{
+                width: 462px;
+                height: 192px;
+                display: block;
+                margin-bottom: 20px;
+                .choose-1,
+                .choose-2{
+                    width: 462px;
+                    height: 91px;
+                    display: block; 
+                    .proper,
+                    .expert,
+                    .clean,
+                    .home{
+                        margin: 15px; 
+                    }   
+                }
+            }
+            .btn-discover{
+                margin: 20px 0  0 110px;
+            }
+           }
+           .img-why{
+            img{
+                width: 462px;
+                height: 426px;
+            }
+           }   
+        }
+    }
+}
 @media(max-width:768px){
     .why{
         width: 768px;
