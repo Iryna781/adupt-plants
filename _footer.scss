@@ -152,6 +152,97 @@
         }
     }
 }
+@media(max-width:1024px){
+    .footer{
+        width: 1024px;
+        .footer-big{
+           width: 1024px; 
+           .footer-text{
+            width: 924px;
+            .subscribe{
+                width: 350px;
+                .sub{
+                    font-size: 20px;
+                }
+                p{
+                  font-size: 16px;
+                  margin: 50px 0 30px 0; 
+                }
+                .sub-frame{
+                    width: 350px;
+                }
+            }
+            .contacts{
+                width: 170px;
+                height: 349px;
+                .sub{
+                    font-size: 20px;
+                    margin: 0 0 50px 0;
+                }
+                p{
+                  font-size: 16px;
+                  margin: 0 0 20px 0; 
+                }
+            }
+            .links{
+                width: 180px;
+                height: 352px;
+                .sub{
+                    font-size: 20px;
+                    margin: 0 0 50px 0;
+                }
+                .useful{
+                    .first,
+                    .second{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .popular{
+                width: 120px;
+                height: 350px;
+                .sub{
+                    font-size: 20px;
+                    margin: 0 0 26px 0;
+                }
+                p{
+                  font-size: 16px;
+                  margin: 0 0 10px 0; 
+                }
+            }
+           }
+           .footer-down{
+            width: 1024px;
+            padding: 30px 100px;
+            .copyright,
+            .line{
+                font-size: 16px;
+            }
+            .line{
+                width: 337px;
+                height: 28px;
+            }
+            .copyright{
+                width: 405px;
+                height: 30px;
+            }
+           }    
+        }
+        .footer-small{
+            width: 824px;
+            transform: translate(12%, 0);
+            .small-text{
+                width: 564px;
+                font-size: 36px;
+                margin-top: 22px;
+                margin-left: 100px; 
+            }
+            .btn-get{
+                padding: 13px 25px;
+            }
+        }
+    }
+}
 @media(max-width:768px){
     .footer{
         width: 768px;

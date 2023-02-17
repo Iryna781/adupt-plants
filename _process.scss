@@ -138,6 +138,7 @@
                background-image: url("images/list.png");
                background-repeat: no-repeat;
                background-position: 610px 60px;
+               
                .text-8{
                 font-size: 22px;
                 margin: 10px 0 10px 0;
@@ -180,7 +181,9 @@
             }
             .consultation,
             .design,
-            .maintenance{
+            .maintenance,
+            .complete{
+                margin: 0;
                 margin-bottom: 20px;
             }   
         }

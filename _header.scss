@@ -254,9 +254,13 @@
                 margin:15px 30px;
                 .text-1-1{
                     width: 660px;
+                    .text-1-2{
+                        width: 480px;
+                    }
                     .btn-call{
                         button{
                             width: 120px;
+                            background-position: 5%;
                         }
                     }
                 }

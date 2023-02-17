@@ -132,12 +132,12 @@
 @media(max-width:768px){
     .team-1{
         width: 768px;
-        height: 654px;
+        height: 500px;
         margin: 0 0 50px 0;
         padding: 0 15px;
         .text-team{
             width: 738px;
-            height: 233px;
+            height: 120px;
             margin: 0;
             display: block;
             .team-text{
@@ -162,26 +162,25 @@
         }
         .cards-team{
             width: 330px;
-            height: 408px;
-            margin: 40px 0 30px 192px;
-            display: block;
+            height: 362px;
+            margin: 20px 0 30px 30px;
             .experts{
                 display: none;
             }
             .expert{ 
                 img{
-                    width: 330px;
-                    height: 408px;
+                    width: 230px;
+                    height: 360px;
                     border-radius: 5px;
                 }
                 .text-cards{
-                     width: 330px;
+                     width: 230px;
                      height: 62px;
                      border-radius: 5px;
                      transform: translate(0, -107%);
                     .team-text{
                          font-size: 20px;
-                          margin-top: 7px; 
+                         margin-top: 7px; 
                     }
                     p{
                         font-size: 16px;
@@ -196,17 +195,17 @@
 @media(max-width:375px){
     .team-1{
         width: 375px;
-        height: 654px;
+        height: 554px;
         margin: 0 0 50px 0;
         padding: 0 15px;
         .text-team{
             width: 345px;
-            height: 233px;
+            height: 120px;
             margin: 0;
             display: block;
             .team-text{
                 width: 345px;
-                height: 163px;
+                height: 120px;
                 text-align: center;
                 margin-bottom: 30px;
                 .team-title{
@@ -226,34 +225,19 @@
         }
         .cards-team{
             width: 330px;
-            height: 345px;
-            margin: 40px 22px 30px 22px;
+            height: 408px;
+            margin: 20px 20px 30px 10px;
             display: block;
             .experts{
+               display: block;
+               margin-top: 10px;
+               background-image: url("images/beautiful.png");
+               .team-text{
                 display: none;
+               }
             }
             .expert{
-                
-                img{
-                    width: 330px;
-                    height: 345px;
-                    border-radius: 5px;
-                }
-                .text-cards{
-                     width: 330px;
-                     height: 62px;
-                     border-radius: 5px;
-                     transform: translate(0, -107%);
-                    .team-text{
-                         font-size: 18px;
-                          margin-top: 7px; 
-                    }
-                    p{
-                        font-size: 14px;
-                        text-align: center;
-                        margin: 0;
-                    }
-                }      
+                display: none;
             }
         }
     }

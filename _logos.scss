@@ -19,6 +19,23 @@
     width: 202px;
     height: 100px;
 }
+@media(max-width:1024px){
+    .logos{
+        width: 924px;
+        height: 100px;
+        margin: 50px;
+        display: block;
+        background-image: url("images/morris.png"), url("images/forest.png"), url("images/acme.png");
+        background-repeat: no-repeat;
+        background-position: 10%,50%, 90%;
+        background-size: 141px, 112px;
+        .logos-1,
+        .logos-2,
+        .logos-3{
+         display: none;
+        }  
+     }
+}
 @media(max-width:768px){
     .logos{
         width: 768px;

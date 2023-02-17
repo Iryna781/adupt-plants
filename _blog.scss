@@ -132,6 +132,63 @@
         }  
     }
 }
+@media(max-width:1024px){
+    .blog{
+        width: 1024px;
+        height: 808px;
+        .blog-text{
+           width: 924px; 
+           height: 740px;
+           margin: 0 auto;
+           .blog-up{
+            width: 924px;
+            height: 141px;
+            margin: 0 auto 30px auto;
+                .up{
+                   font-size: 36px; 
+                   margin: 0 auto 10px auto;
+                }
+                p{
+                    font-size: 16px;
+                } 
+            }       
+           .blog-card{
+               .blog-1,
+               .blog-2{
+                  width: 400px;
+                  height: 549px;
+                }
+                .blog-1{
+                    background-image: url("images/full.png");
+                    opacity: 0.8;
+                    border-radius: 10px;
+                    background-position: center,bottom;
+                    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+                    .blog-3{
+                        font-size: 24px;
+                        color: #ffffff;
+                        margin: 75px 58px 30px 30px;
+                    }
+                    p{
+                        font-size: 18px;
+                        color: #ffffff;
+                        margin: 0 32px 0 30px;
+                    }
+                    .blog-down{
+                        width: 400px;
+                        height: 55px;
+                        background-image: url("images/Profiledates.png");
+                        border-top: 1px solid white;
+                        margin-top: 70px;
+                    }
+                }
+                .blog-2{
+                    display: none;
+                }
+            }  
+        }
+    }
+}
 @media(max-width:768px){
     .blog{
         width: 768px;
@@ -171,6 +228,7 @@
                     height: 380px; 
                     margin: 0 auto; 
                     padding: 10px;
+                    display: block;
                     .blog-garden-1{
                         width: 122px;
                         height: 30px;
@@ -208,16 +266,16 @@
 @media(max-width:375px){
     .blog{
         width: 375px;
-        height: 616px;
+        height: 576px;
         margin: 0 0 50px 0;
         .blog-text{
            width: 345px; 
-           height: 616px;
+           height: 576px;
            margin: 0 15px;
            .blog-up{
             width: 345px;
             height: 168px;
-            margin: 0 0 40px 0;
+            margin: 0 ;
                 .up{
                    font-size: 28px; 
                 }

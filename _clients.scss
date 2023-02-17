@@ -1,10 +1,10 @@
 .clients{
-    width: 100%;
+    width: 1920px;
     height: 585px;
+    margin: 0 auto;
     display: relative;
     background-image: url("images/BG.png");
     background-position: center;
-    
 }
 .content-clients{
     position: absolute;
@@ -99,6 +99,58 @@
         }
     }
 }
+@media(max-width:1024px){
+    .clients{
+        width: 1024px;
+        height: 585px;
+    }
+    .content-clients{
+        position: absolute;
+        width: 924px;
+        height: 692px;
+        margin: 50px ;
+        transform: translate(0, -85%);
+        .textup{
+            margin-bottom: 30px;
+            .text-client{
+                width: 680px;
+                height: 151px;
+                .clients-title{
+                    margin: 0 0 20px 0;
+                    font-size: 36px;
+                }
+            }
+        }
+        .cards-client{
+            width: 924px;
+            height: 515px;
+            .card-client-1,
+            .card-client-2{
+               width: 440px; 
+               height: 515px;
+               display: block;
+               border-radius: 10px;
+            .img-client-1{
+               margin: 20px 0 10px 130px;
+            }
+            .img-client-2{
+               background-image: none;
+               margin: 20px 0 10px 120px;
+            }
+            .client-text{
+                width: 400px;
+                height: 110px;
+                margin-top: 0;
+            p{
+                padding: 0 20px;
+                font-size: 16px;
+                margin: 10px 0 10px 0;
+            }
+            }
+            }
+        }
+    }
+}
 @media(max-width:768px){
     .clients{
         width: 768px;
@@ -106,14 +158,14 @@
     }
     .content-clients{
         width: 728px;
-        height: 634px;
-        margin: 100px 20px 0 20px;
+        height: 594px;
+        margin: -50px 20px 0 20px;
         text-align: center;
         .textup{
             width: 728px;
             height: 163px;
             display: block;
-            margin-bottom: 40px;
+            margin-bottom: 0;
             .text-client{
                 width: 728px;
                 height: 163px;
@@ -189,14 +241,14 @@
     }
     .content-clients{
         width: 345px;
-        height: 634px;
-        margin: 100px 15px 0 15px;
+        height: 574px;
+        margin: -50px 15px 0 15px;
         text-align: center;
         .textup{
             width: 345px;
-            height: 163px;
+            height: 130px;
             display: block;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
             .text-client{
                 width: 345px;
                 height: 163px;

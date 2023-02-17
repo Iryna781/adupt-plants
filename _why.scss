@@ -165,6 +165,8 @@
                 .choose-2{
                     width: 700px;
                     height: 42px; 
+                    display: flex;
+                    justify-content: space-between;  
                     .proper,
                     .expert,
                     .clean,
@@ -183,7 +185,7 @@
             }
            }
            .img-why{
-            width: 738px;
+            width: 444px;
             height: 317px;
             align-self: center;
             margin-top: -360px;

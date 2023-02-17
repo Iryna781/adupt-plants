@@ -72,6 +72,47 @@
         align-self: flex-end;
     }
 }
+@media(max-width:1024px){
+    .asked{
+        width: 1024px;
+        height: 737px;
+        margin: 197px auto 50px auto;
+        .asked-text{
+            width: 480px;
+            height: 100%;
+            padding: 0 20px;
+            .asked-text-1{
+                width: 480px;
+                height: 196px;
+                margin: 0 0 20px 0;
+                padding: 0 30px;
+                .asked-text-title{
+                    font-size: 36px;
+                    margin: 0 0 10px 0;
+                }
+                p{
+                    font-size: 16px;
+                }     
+            }
+            .asked-text-2{
+                width: 480px;
+                height: 514px;
+                .question{
+                    width: 100%;
+                    height: 247px;
+                    margin: 0 0 10px 0;
+                    .question-1,
+                    .question-2{
+                        width: 480px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
 @media(max-width:768px){
     .asked{
         width: 768px;
@@ -129,7 +170,7 @@
         width: 375px;
         height: 805px;
         display: block;
-        margin: 150px 0 50px 0;
+        margin: 150px 0 0  0;
         .asked-text{
             width: 345px;
             height: 805px;
